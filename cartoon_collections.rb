@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
     index += 1 
     string = "#{string} #{index}. #{dwarf}"
   end 
-  string
+  puts string
 end
 
 def summon_captain_planet# code an argument here
