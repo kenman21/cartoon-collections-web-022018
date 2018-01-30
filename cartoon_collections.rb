@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarves)
+  string = ""
+  dwarves.each_with_index do |dwarf, index|
+    index += 1 
+    string = "#{string} #{index}. #{dwarf}"
+  end 
 end
 
 def summon_captain_planet# code an argument here
