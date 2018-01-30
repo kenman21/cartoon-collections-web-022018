@@ -9,7 +9,6 @@ end
 
 def summon_captain_planet(elements)
   elements.collect do |element|
-    element = element.upcase
     element << "!"
   end 
 end
